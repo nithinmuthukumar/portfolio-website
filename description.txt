@@ -1,0 +1,15 @@
+Portfolio Website
+
+Pages: 
+Homepage -> index.html
+About -> about.html
+Projects -> projects.html
+Resume -> external link
+
+- Homepage has name that changes color on hover.
+
+- Navbar is responsive and indicates which is the current page.
+
+- Projects page has responsive clickable cards. 
+
+

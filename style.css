@@ -3,37 +3,19 @@ body {
   color: white;
   font-family: "Lucida Console", "Courier New", monospace;
 }
-#intro {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-#intro:hover {
-  color: #c7444a;
-  transition: 0.5s ease;
-}
-#about {
-  text-align: center;
-  padding: 4em;
-}
-#active {
-  color: #c7444a;
-}
 
 h1 {
   font-size: 4em;
 }
 
-li {
-  list-style: none;
-  font-size: 1.5em;
-}
 a {
   color: inherit;
   text-decoration: inherit;
 }
-
+li {
+  list-style: none;
+}
+/* Nav bar styling */
 .menu {
   display: flex;
   gap: 1em;
@@ -48,25 +30,63 @@ a {
   color: black;
 }
 
-.menu li {
-  padding: 5px 14px;
-}
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: fit-content;
-}
-img {
-  width: auto;
+#active {
+  color: #c7444a;
 }
 
-/* On mouse-over, add a deeper shadow */
+.menu li {
+  font-size: 1.5em;
+  padding: 5px 14px;
+}
+/* Home Page Styling */
+#intro {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#intro:hover {
+  color: #c7444a;
+  transition: 0.5s ease;
+}
+
+/* About Page Styling */
+#about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 8em;
+  font-size: 2em;
+}
+#stats {
+  font-weight: bold;
+  font-size: 1.5em;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+/* Project page styling */
+.cards {
+  padding: 1.1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 2em 1em 2em 1em;
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
+.proj {
+  width: 25em;
+  height: 22em;
+}
+.proj p {
+  color: ;
 }
